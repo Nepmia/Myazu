@@ -1,6 +1,7 @@
 
 import discord
 from discord.ext import commands
+from secret.py import BOT_TOKEN
 
 import sys, traceback
 
@@ -36,4 +37,4 @@ async def on_ready():
     print(f'Successfully logged in and booted...!')
 
 
-bot.run('NjYxODA1MjYxNzg2NDQ3ODcy.XgwwLg.bDksJsiKvsTh799KVBBuwfl_IuQ', bot=True, reconnect=True)
+bot.run(BOT_TOKEN, bot=True, reconnect=True)
