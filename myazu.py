@@ -1,7 +1,7 @@
 
 import discord
 from discord.ext import commands
-from secret.py import BOT_TOKEN
+from secret import BOT_TOKEN
 
 import sys, traceback
 
